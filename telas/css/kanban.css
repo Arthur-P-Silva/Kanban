@@ -1,0 +1,87 @@
+ body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f1f1f1;
+    }
+
+    header {
+        background: #ffffff;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+    }
+
+    header nav a {
+        margin-left: 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .kanban {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .coluna {
+        background: aliceblue;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        width: 30%;
+        padding: 10px;
+        min-height: 350px;
+    }
+
+    .coluna h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .card {
+        background: #fafafa;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 10px;
+        cursor: grab;
+    }
+
+    /* Tela de edição */
+    .editar-box {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        width: 320px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        display: none;
+    }
+
+    .editar-box label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .editar-box input, .editar-box select {
+        width: 100%;
+        padding: 6px;
+        margin-top: 5px;
+    }
+
+    .editar-box button {
+        margin-top: 15px;
+        width: 100%;
+        padding: 8px;
+        background: #0d6efd;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }

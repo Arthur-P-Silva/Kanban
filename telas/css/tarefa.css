@@ -1,0 +1,88 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f5f5;
+    }
+
+    header {
+        background: #fff;
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+    }
+
+    header nav a {
+        margin-left: 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 70%;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    h1 {
+        margin-bottom: 25px;
+    }
+
+    label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    input, textarea, select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    .row {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 20px;
+    }
+
+    .row div {
+        flex: 1;
+    }
+
+    .buttons {
+        margin-top: 25px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .ok {
+        background: #7a3cff;
+        color: white;
+        padding: 10px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .cancelar {
+        background: transparent;
+        border: 1px solid #7a3cff;
+        color: #7a3cff;
+        padding: 10px 40px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+    }

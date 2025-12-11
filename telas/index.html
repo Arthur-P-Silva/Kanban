@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Kanban</title>
+<link rel="stylesheet" href="./css/kanban.css">
+</head>
+<body>
+
+<header>
+    <div>KANBAN</div>
+    <nav>
+        <a href="./index.html">Kanban</a>
+        <a href="./telas/novousuario.html">Novo Usuário</a>
+        <a href="./telas/novatarefa.html">Nova Tarefa</a>
+    </nav>
+</header>
+
+<div class="kanban">
+    <div class="coluna" id="todo">
+        <h2>A Fazer</h2>
+        </div>
+
+    <div class="coluna" id="doing">
+        <h2>Em andamento</h2>
+        </div>
+
+    <div class="coluna" id="done">
+        <h2>Executado</h2>
+    </div>
+</div>
+
+<div class="editar-box" id="editBox">
+    <h3>Editar Tarefa</h3>
+    <label>Status</label>
+    <select id="status">
+        <option value="1">A Fazer</option>
+        <option value="2">Em Andamento</option>
+        <option value="3">Executado</option>
+    </select>
+
+    <label>Executante</label>
+    <select id="editExecutante">
+        </select>
+
+    <label>Título</label>
+    <input type="text" id="editTitulo" placeholder="Título da tarefa">
+
+    <label>Prioridade</label>
+    <select id="editPrioridade">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+
+    <div style="margin-top: 15px; display: flex; gap: 10px;">
+        <button onclick="salvar()" style="background: #0d6efd;">Salvar</button>
+        <button onclick="fecharEdicao()" style="background: #ccc; color: #333;">Cancelar</button>
+    </div>
+</div>
+
+<script src="./js/kanban.js"></script>
+
+</body>
+</html>

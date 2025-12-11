@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Nova Tarefa</title>
+<link rel="stylesheet" href="../css/tarefa.css">
+</head>
+<body>
+
+<header>
+    <div>KANBAN</div>
+    <nav>
+        <a href="../index.html">Kanban</a>
+        <a href="../telas/novousuario.html">Novo Usuário</a>
+        <a href="./novousuario.html">Nova Tarefa</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>NOVA TAREFA</h1>
+
+    <div class="row">
+        <div>
+            <label>ID da Tarefa</label>
+            <p>00001</p>
+        </div>
+
+        <div>
+            <label>Criador</label>
+            <p>João das Dores</p>
+        </div>
+    </div>
+
+    <label>Executante</label>
+    <select id="executante">
+        <option>João da Dores de parto</option>
+        <option>Maria Silva</option>
+        <option>José Pereira</option>
+    </select>
+
+    <label>Título da Tarefa</label>
+    <input type="text" id="titulo" placeholder="Campo de entrada">
+
+    <label>Descrição</label>
+    <textarea id="descricao" placeholder="Campo de entrada"></textarea>
+
+    <div class="buttons">
+        <button class="ok" onclick="cadastrar()">OK</button>
+        <button class="cancelar" onclick="voltar()">Cancelar</button>
+    </div>
+</div>
+<script src="../js/tarefa.js"></script>
+</body>
+</html>
