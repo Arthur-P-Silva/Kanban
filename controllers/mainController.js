@@ -23,6 +23,34 @@ const mostraPaginaInicial = (req, res) => {
 
 }
 
+const mostraPaginaUsuario = (req, res) => {
+
+    console.log('mainController.js','mostraPaginaUsuario()')
+
+    dados = {
+        mensagem:'rota usuario', 
+        titulo:'Usuario exemplo',
+    }
+
+    res.render('novousuario', { dados:dados})
+
+}
+
+const mostraPaginaTarefa = (req, res) => {
+
+    console.log('mainController.js','mostraPaginaTarefa()')
+
+    dados = {
+        mensagem:'rota tarefa', 
+        titulo:'Tarefa exemplo',
+    }
+
+    res.render('novatarefa', { dados:dados})
+
+}
+
 module.exports =  {
-    mostraPaginaInicial
+    mostraPaginaInicial,
+    mostraPaginaUsuario,
+    mostraPaginaTarefa
 };

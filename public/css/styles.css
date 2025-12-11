@@ -230,3 +230,81 @@ header nav a {
 }
 
 /* final da Tela de edição */
+
+/*Inicio tela usuário*/
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.ok {
+    background: #7a3cff;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cancelar {
+    background: transparent;
+    padding: 10px 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #7a3cff;
+    color: #7a3cff;
+    font-size: 16px;
+}
+    /*Fim tela usuario*/
+textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.row div {
+    flex: 1;
+}
+    /*Inicio tela tarefa*/

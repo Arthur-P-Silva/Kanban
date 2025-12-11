@@ -4,6 +4,10 @@ const router = express.Router();
 
 router.get('/', mainController.mostraPaginaInicial);
 
+router.get('/novousuario', mainController.mostraPaginaUsuario);
+
+router.get('/novatarefa', mainController.mostraPaginaTarefa);
+
 // router.get('/cadastrar', mainController.mostraPaginaCadastrar);
 // router.post('/cadastrar', mainController.cadastrarExemplo);
 
