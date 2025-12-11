@@ -1,0 +1,1 @@
+CMDKEY /DELETE:LegacyGeneric:target=git:https://github.com
